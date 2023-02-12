@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagination</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .container {
+      margin-top: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      /* position: relative; */
+    }
+
+    .btn-icon {
+      height: 24px;
+      width: 24px;
+      /* border-radius: 50%;
+      border-color: #2b8a3e;
+      color: #2b8a3e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* position: absolute; */
+      /* transform: translate(0, -4px); */ 
+      color: #2b8a3e;
+    }
+
+    button{
+      border: 1px solid #2b8a3e;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      background: none;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #2b8a3e;
+      cursor: pointer;
+    }
+
+    .button:hover .btn-icon{
+      color: white;
+    }
+
+    .pageNos {
+      display: flex;
+      gap: 12px
+    }
+
+    .number:visited, .number:link{
+      text-decoration: none;
+      height: 32px;
+      width: 32px;
+      /* background-color: red; */
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      
+    }
+
+    .number:active,.number:hover{
+      background-color: #2b8a3e;
+      color: white;
+    }
+
+    .current {
+      /* border: 1px solid blue; */
+      background-color: #2b8a3e;
+      color: white;
+      border-radius: 50%;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* transform: translate(0, -4px); */
+    }
+
+    .dots{
+      display: inline;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <button class="left-arrow button">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 btn-icon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+
+    </button>
+    <div class="pageNos">
+      <a href="#" class="number">1</a>
+      <a href="#" class="number">2</a>
+      <a href="#" class="number current">3</a>
+      <a href="#" class="number">4</a>
+      <a href="#" class="number">5</a>
+      <a href="#" class="number">6</a>
+      <span class="dots">...</span>
+      <a href="#" class="number">23</a>
+    </div>
+    <button class="right-arrow button">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 btn-icon">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+      </button>
+
+      
+  </div>
+</body>
+
+</html>

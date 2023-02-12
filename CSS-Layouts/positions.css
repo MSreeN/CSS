@@ -1,0 +1,142 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+
+/* .div1{
+  background-color: aqua;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  border: 3px solid black ;
+}
+
+.div2{
+  background-color: blue; 
+  top: 100px;
+  top:0;
+  position: absolute;
+  width: 100%;
+  height: 100px;
+} */
+/* 
+.div3{
+ background-color: brown;
+  position:  absolute;
+  width: 100%;
+  top: 100px;
+  
+  height: 100px; 
+}
+.middle{
+  position: relative;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  background-color: burlywood;
+  margin-top: 100px;
+  border: 2px solid black;
+
+}
+
+.inner{
+  background-color: black;
+  width: 50px;
+  height: 100px;
+  position:absolute;
+  left: 50px;
+  left: 20px ;
+  top: 20px;
+}
+
+button:hover{
+  background-color: blue;
+  cursor: pointer;
+}*/
+
+
+/* testing for flex:1 0 0px*/
+
+.maindiv{
+  margin: 40px auto;
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  box-sizing: border-box;
+  background-color: aqua;
+  position: relative;
+  display: flex;
+  
+}
+.div1{
+  background-color: aqua;
+  flex: 1 0 0px;
+}
+
+.div2{
+  background-color: blue;
+  flex: 1 0 0px;
+  margin-left: 20px;
+
+}
+
+
+.div3{
+  background-color: burlywood;
+  flex: 1 0 0px;
+
+}
+
+.div4{
+  background-color: rgb(122, 29, 94);
+  flex: 1 0 0px;
+
+}
+
+.div5{
+  background-color: rgb(84, 107, 222);
+  flex: 1 0 0px;
+
+}
+
+.div6{
+  background-color: rgba(207, 181, 199, 0.404);
+  flex: 1 0 0px;
+
+}
+
+.innerdiv{
+  background-color:rosybrown;
+  position: absolute;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 120px;
+  height: 120px; */
+  /* going beyond relatively positioned parent element*/
+  top: -20px;
+  
+
+}
+
+.item{
+  border: 2px solid red;
+}
+
+.item-3{
+  flex: 1;
+  display: flex;
+  
+}
+
+.item-3 div{
+  
+}
+
+.item-2{
+  flex: 2;
+}
