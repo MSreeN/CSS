@@ -1,9 +1,8 @@
-
 /* ******************** */
 /* Header */
 /* ******************* */
 
-.logo{
+.logo {
   height: 2.2rem;
 }
 
@@ -11,28 +10,28 @@
 /* Navigation */
 /* ******************* */
 
-.main-nav-list{
-  font-family: 'rubik', sans-serif;
+.main-nav-list {
+  font-family: "rubik", sans-serif;
   list-style: none;
   display: flex;
   gap: 3.2rem;
   align-items: center;
 }
 
-.main-nav-link{
+.main-nav-link {
   text-decoration: none;
   display: inline-block;
-  color: black;   
+  color: black;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
 }
 
-.main-nav-link:hover{
+.main-nav-link:hover {
   color: #cf711f;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,26 +41,26 @@
   padding: 0 4.8rem;
 }
 
-.main-nav-link.nav-cta{
+.main-nav-link.nav-cta {
   padding: 1.2rem 2.4rem;
-  border-radius: 9px; 
+  border-radius: 9px;
   background-color: #e67e22;
   color: white;
 }
 
-.main-nav-link.nav-cta:hover{
+.main-nav-link.nav-cta:hover {
   background-color: #cf711f;
 }
 
 /* ******************* */
 /* Hero Section */
 /* ******************* */
-.section-hero{
+.section-hero {
   background-color: #fae5d3;
   /* should be 0rem on left and right as per jonas */
   padding: 4.8rem 0 9.6rem;
 }
-.hero{
+.hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 130rem;
@@ -72,33 +71,29 @@
   gap: 9.6rem;
 }
 
-.hero-description{
+.hero-description {
   font-size: 2rem;
   font-weight: bolder;
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
-
-
-.hero-img{
+.hero-img {
   width: 100%;
 }
 
-
-
-.delivered-meals{
+.delivered-meals {
   display: flex;
   margin-top: 8rem;
   align-items: center;
   gap: 1.6rem;
 }
 
-.delivered-imgs{
+.delivered-imgs {
   display: flex;
 }
 
-.delivered-imgs img{
+.delivered-imgs img {
   height: 4.8rem;
   width: 4.8rem;
   border-radius: 50%;
@@ -106,16 +101,16 @@
   border: 3px solid #fae5d3;
 }
 
-.delivered-imgs img:first-child{
+.delivered-imgs img:first-child {
   margin-left: 0;
 }
 
-.delivered-text{
+.delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
 }
 
-.delivered-text span{
+.delivered-text span {
   color: #cf711f;
   font-weight: 700;
 }
@@ -124,23 +119,23 @@
 /* Section Featured In*/
 /* ******************* */
 
-.logos{
+.logos {
   display: flex;
   justify-content: space-around;
 }
 
-.logos img{
+.logos img {
   height: 3.8rem;
   /* filter: grayscale(100%); */
   filter: brightness(40%);
   opacity: 40%;
 }
 
-.section-featured{
+.section-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
 
-.heading-featured-in{
+.heading-featured-in {
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
@@ -154,32 +149,30 @@
 /* Section How*/
 /* ******************* */
 
-.section-how{
+.section-how {
   padding: 9.6rem 0;
 }
 
-.step-number{
-  font-size:  8.6rem;
+.step-number {
+  font-size: 8.6rem;
   font-weight: 500;
   color: #ddd;
   margin-bottom: 1.2rem;
 }
 
-
- 
-.step-description{
+.step-description {
   font-size: 1.8rem;
   line-height: 1.8;
 }
 
-.step-img-box{
+.step-img-box {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
 
-.step-img-box::before{
+.step-img-box::before {
   content: "";
   display: block;
   width: 60%;
@@ -191,7 +184,7 @@
   z-index: -1;
 }
 
-.step-img-box::after{
+.step-img-box::after {
   content: "";
   width: 50%;
   /* height: 50%; */
@@ -202,54 +195,69 @@
   z-index: -1;
 }
 
-.step-img{
+.step-img {
   width: 35%;
 }
-
-
 
 /* ******************* */
 /* Section Meals*/
 /* ******************* */
 
-.section-how{
+.section-how {
   padding: 9.6rem 0;
 }
 
-.meal{
+.meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
+  overflow: hidden;
 }
 
-.meal-tags{
+.meal-content{
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.meal-tags {
   margin-bottom: 1.2rem;
+  text-transform: uppercase;
+  
+  display: flex;
+  gap: 0.4rem;
 }
 
-.tag{
+.tag {
   display: inline-block;
   font-size: 1.2rem;
   padding: 0.4rem 0.8rem;
-  background-color: #51cf66;
   color: #333;
   border-radius: 100px;
+  font-weight: 600;
 }
-
-.meal-title{
+.tag--vegetarian{
+  background-color: #51cf66;
+}
+.tag--vegan{
+  background-color: #a9e34b;
+}
+.tag--paleo{
+  background-color: #fcc419;
+}
+.meal-title {
   font-size: 2rem;
   color: #333;
   font-weight: 600;
   margin-bottom: 3.2rem;
 }
 
-.meal-attributes{
+.meal-attributes {
   list-style: none;
 
   display: flex;
   flex-direction: column;
-  gap: 2rem ;
+  gap: 2rem;
 }
 
-.meal-attribute{
+.meal-attribute {
   font-size: 1.8rem;
 
   display: flex;
@@ -257,11 +265,11 @@
   gap: 1.6rem;
 }
 
-.meal-img{
+.meal-img {
   width: 100%;
 }
 
-.meal-icon{
+.meal-icon {
   /* width: 2.4rem;
   height: 2.4rem; */
   font-size: 2.4rem;
