@@ -31,6 +31,7 @@ FONT SIZE SYSTEM (PX)
 ------03 SHADOWS
 ------04 BORDER-RADIUS
 default: 9px
+medium: 11px
 ------04 WHITESPACE
 -- Spacing system (px)
 2 / 4 / 8/ /12/ /16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
@@ -172,4 +173,8 @@ body{
   border: 1px solid white;
   /* trick to add border inside*/
   box-shadow: inset 0 0 0 1px white;
+}
+
+strong{
+  font-weight: 500;
 }
