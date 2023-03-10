@@ -211,16 +211,22 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.3s;
 }
 
-.meal-content{
+.meal:hover {
+  transform: translateY(-1.6rem);
+  box-shadow: 0 3.4rem 6.2rem rgba(0, 0, 0, 0.06);
+}
+
+.meal-content {
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
 .meal-tags {
   margin-bottom: 1.2rem;
   text-transform: uppercase;
-  
+
   display: flex;
   gap: 0.4rem;
 }
@@ -233,13 +239,13 @@
   border-radius: 100px;
   font-weight: 600;
 }
-.tag--vegetarian{
+.tag--vegetarian {
   background-color: #51cf66;
 }
-.tag--vegan{
+.tag--vegan {
   background-color: #a9e34b;
 }
-.tag--paleo{
+.tag--paleo {
   background-color: #fcc419;
 }
 .meal-title {
@@ -274,4 +280,34 @@
   height: 2.4rem; */
   font-size: 2.4rem;
   color: #e67e22;
+}
+
+.list {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+
+  display: flex;
+}
+
+.list-item span {
+  align-self: center;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+.all-recepies {
+  text-align: center;
+  font-size: 1.8rem;
 }
