@@ -147,7 +147,7 @@ body{
   border-radius: 9px;
   font-weight: 600;
   
-  transition: background-color 300ms
+  transition: all 300ms
 }
 
 .btn--full{
