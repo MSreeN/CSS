@@ -25,6 +25,7 @@ FONT SIZE SYSTEM (PX)
 #fdf2e9
 -Shades:#cf711f
 -Greys: 
+#6f6f6f lightest gray allowed on #fdf2e9
 #555
 #333
 
@@ -200,3 +201,4 @@ strong{
 .margin-bottom-md{
   margin-bottom: 4.8rem !important;
 }
+
