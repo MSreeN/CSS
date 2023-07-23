@@ -202,3 +202,27 @@ strong{
   margin-bottom: 4.8rem !important;
 }
 
+.list {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+
+  display: flex;
+}
+
+.list-item span {
+  align-self: center;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
