@@ -364,10 +364,9 @@
 }
 
 .pricing-plan{
-  background-color: #fae5d3;
   border-radius: 11px;
-  padding: 4.3rem;
-  width: 75%;
+
+  width: 60%;
 }
 
 .plan-name{
@@ -404,4 +403,27 @@
 
 .pricing-plan--starter{
   justify-self: end;
+  border: 2px solid #fdf2e9 ;
+  padding: 4.1rem;
+}
+
+.pricing-plan--complete{
+  background-color: #fae5d3;
+  padding: 4.3rem;
+  position: relative;
+}
+
+.pricing-plan--complete::before{
+  content: "best value";
+  font-size: 1.6rem;
+  /* width: 5rem; */
+  color: #a95d1a;
+  background-color: #eb9d59;
+  padding: 0.4rem;
+  border-radius: 11px 0 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  white-space: nowrap;
 }
