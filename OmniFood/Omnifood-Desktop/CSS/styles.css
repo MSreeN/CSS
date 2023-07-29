@@ -411,19 +411,21 @@
   background-color: #fae5d3;
   padding: 4.3rem;
   position: relative;
+  overflow: hidden;
 }
 
-.pricing-plan--complete::before{
+.pricing-plan--complete::after {
   content: "best value";
   font-size: 1.6rem;
   /* width: 5rem; */
-  color: #a95d1a;
-  background-color: #eb9d59;
-  padding: 0.4rem;
-  border-radius: 11px 0 0;
+  color: black;
+  background-color: #fcc419;
+  padding: 0.8rem 3.2rem;
+  /* border-radius: 11px 0 0; */
   position: absolute;
-  left: 0;
-  top: 0;
+  right: -8%;
+  top: 4%;
   display: inline-block;
   white-space: nowrap;
+  transform: rotate(45deg);
 }
