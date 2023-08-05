@@ -28,6 +28,8 @@ FONT SIZE SYSTEM (PX)
 #6f6f6f lightest gray allowed on #fdf2e9
 #555
 #333
+#e67322
+
 
 ------03 SHADOWS
 ------04 BORDER-RADIUS
@@ -78,12 +80,12 @@ body{
 /* General Reusable components */
 /* ******************** */
 
+/* comment below margin code and uncomment not code */
 .container{
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 
-  /* below prop is not working, question was asked */
   /* margin-bottom: 9.6rem; */
 }
 
