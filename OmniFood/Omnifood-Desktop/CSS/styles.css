@@ -481,6 +481,10 @@
   color: #45260a;
 }
 
+.cta *:focus{
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.50)
+}
 
 .cta .heading-secondary{
   color: #45260a;
