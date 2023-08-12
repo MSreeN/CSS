@@ -24,6 +24,7 @@ FONT SIZE SYSTEM (PX)
 -Tints: #fae5d3
 #fdf2e9
 -Shades:#cf711f
+#42560a
 -Greys: 
 #6f6f6f lightest gray allowed on #fdf2e9
 #555
@@ -164,8 +165,22 @@ body{
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   font-weight: 600;
+  border: none;
+  cursor: pointer;
   
   transition: all 300ms
+}
+
+.btn-form{
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: flex-end;
+  padding: 1.2rem;
+}
+
+.btn-form:hover{
+  background-color: white;
+  color: #555;
 }
 
 .btn--full{
