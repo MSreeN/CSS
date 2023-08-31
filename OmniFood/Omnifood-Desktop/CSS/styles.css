@@ -534,3 +534,74 @@ margin-bottom: 1.2rem;
   color: #aaa;
 }
 
+
+/* ******************* */
+/* Footer*/
+/* ******************* */
+
+.footer-heading{
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.logo-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  display: block;
+  margin-bottom: 4rem;
+}
+
+.social-links{
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+
+.footer-link.social-icon{
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.footer-nav{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link{
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:active,
+.footer-link:hover{
+  color: #555;
+}
+
+.copyright{
+  font-size: 1.4rem;
+  color: #767676;
+  margin-top: auto;
+}
+
+.occupy{
+  height: 1.5rem;
+}
+
+.contacts{
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+address{
+  margin-bottom: 2.4rem;
+}

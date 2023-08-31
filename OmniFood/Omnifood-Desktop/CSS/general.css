@@ -26,6 +26,9 @@ FONT SIZE SYSTEM (PX)
 -Shades:#cf711f
 #42560a
 -Greys: 
+
+#888
+#767676
 #6f6f6f lightest gray allowed on #fdf2e9
 #555
 #333
@@ -113,6 +116,10 @@ body{
 }
 .grid--5--cols{
   grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--footer{
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .grid--center-v{
